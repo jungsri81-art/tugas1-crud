@@ -1,4 +1,32 @@
 <?php
+require_once __DIR__ . '/../inc/config.php';
+require_once __DIR__ . '/../class/Mahasiswa.php';
+
+$mahasiswa = new Mahasiswa($conn);
+$list = $mahasiswa->getAll();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Index</title>
+</head>
+<body>
+  <h1>Selamat datang di CRUD Mahasiswa</h1>
+  <a href="create.php">Tambah Mahasiswa</a> | 
+  <a href="members.php">Daftar Mahasiswa</a>
+</body>
+</html>
+require_once("inc/config.php");
+
+// Autoload class
+spl_autoload_register(function ($class_name) {
+    include __DIR__ . "/class/" . $class_name . '.php';
+});
+
+// Contoh penggunaan
+$util = new Utility();
+$user = new User($conn);
+?>
 
 // require necessary files
 require_once 'inc/config.php';
