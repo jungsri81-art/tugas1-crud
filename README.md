@@ -16,4 +16,4 @@ Aplikasi CRUD sederhana menggunakan PHP dan MySQL untuk mengelola data produk.
 3. Jalankan proyek di XAMPP atau server lokal
 
 ## 👨‍💻 Dibuat oleh
-Anak Agung Istri Sri Wangi Nariswari – Mahasiswa SI, ITB Stikom bali 
+Anak Agung Istri Sri Wangi Nariswari (2400030378) – Mahasiswa SI, ITB Stikom bali 
